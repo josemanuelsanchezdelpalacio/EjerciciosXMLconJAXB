@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<instituto>
+    <nombre>Nombre del Instituto</nombre>
+    <alumnos>
+        <alumno curso="DAM1">
+            <nombre>Alumno1</nombre>
+            <edad>21</edad>
+        </alumno>
+        <alumno curso="DAM2">
+            <nombre>Alumno2</nombre>
+            <edad>22</edad>
+        </alumno>
+    </alumnos>
+</instituto>

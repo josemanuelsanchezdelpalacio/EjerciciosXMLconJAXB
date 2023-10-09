@@ -14,6 +14,12 @@ public class Alumno {
 
     public Alumno() {}
 
+    public Alumno(String curso, String nombre, Integer edad) {
+        this.curso = curso;
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
     @XmlAttribute(name = "curso")
     public String getCurso() {
         return curso;
