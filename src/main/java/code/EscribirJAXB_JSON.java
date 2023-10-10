@@ -26,7 +26,7 @@ public class EscribirJAXB_JSON {
         insti.setNombre("IES San Alberto Magno");
 
         Alumno a1 = new Alumno("SMR1", "Lola", 16);
-        Alumno a2 = new Alumno("DAM1", "Lola", 20);
+        Alumno a2 = new Alumno("DAM1", "Juan", 20);
         Alumno a3 = new Alumno("DAM2", "Sofía", 21);
 
         listaAlumnos.add(a1);
