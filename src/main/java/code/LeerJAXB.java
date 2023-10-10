@@ -19,7 +19,9 @@ public class LeerJAXB {
             JAXBContext contexto = null;
             try {
                 contexto = JAXBContext.newInstance(Instituto.class);
+                //para pasar de codigo a XML
                 Unmarshaller unmarshaller = contexto.createUnmarshaller();
+                //leemos el archivo
                 insti = (Instituto) unmarshaller.unmarshal(p.toFile());
                 System.out.println(insti.getNombre());
                 System.out.println(insti.getAlumnos());
